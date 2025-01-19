@@ -49,6 +49,8 @@ vim.api.nvim_set_keymap('n', '<A-4>', '<cmd>lua require("harpoon.ui").nav_file(4
 vim.api.nvim_set_keymap('n', '<A-S-k>', '<cmd>lua require("harpoon.ui").nav_prev()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<A-S-j>', '<cmd>lua require("harpoon.ui").nav_next()<CR>', { noremap = true, silent = true })
 
+vim.keymap.set('n', '<leader>er', '<cmd>lua vim.diagnostic.open_float()<CR>')
+
 vim.api.nvim_create_autocmd('TextYankPost', {
     desc = 'Highlight when yanking (copying) text',
                             group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),

@@ -17,7 +17,10 @@ return {
                 capabilities = capabilities,
             }
             lsp.clangd.setup {}
+            lsp.zls.setup {}
             lsp.pylsp.setup {}
+            lsp.rust_analyzer.setup {}
+
 		end,
 	},
 	{
