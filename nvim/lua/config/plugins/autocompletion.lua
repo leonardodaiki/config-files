@@ -8,9 +8,9 @@ return {
       opts = {
         keymap = {
             preset = 'default',
-            ['<S-k>'] = { 'select_prev', 'fallback' },
-            ['<S-j>'] = { 'select_next', 'fallback' },
-            ['S-<CR>'] =  { 'accept', 'fallback' },
+            ['<C-k>'] = { 'select_prev', 'fallback' },
+            ['<C-j>'] = { 'select_next', 'fallback' },
+            ['<C-<CR>>'] =  { 'accept', 'fallback' },
         },
         appearance = {
           use_nvim_cmp_as_default = true,
