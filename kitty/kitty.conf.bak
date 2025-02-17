@@ -1,9 +1,54 @@
 # font_family Mononoki Nerd Font
 
+background_opacity 1.0
 
 # BEGIN_KITTY_FONTS
-font_family      family="FreeMono"
+font_family      family="Mononoki Nerd Font"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
+font_size         14
 # END_KITTY_FONTS
+
+# Background and foreground colors
+background #FFFFFF
+foreground #262626
+
+# Cursor and selection colors
+cursor #af5fd7
+selection_background #C6C6C6
+selection_foreground #262626
+
+# URL color
+url_color #008EC4
+
+# Tab bar colors
+active_tab_background #EEEEEE
+active_tab_foreground #262626
+inactive_tab_background #C6C6C6
+inactive_tab_foreground #767676
+tab_bar_background #F1F1F1
+
+# Normal colors
+color0  #000000
+color1  #C30771
+color2  #10A778
+color3  #A89C14
+color4  #008EC4
+color5  #AF5FD7
+color6  #20A5BA
+color7  #767676
+
+# Bright colors
+color8  #4E4E4E
+color9  #E32791
+color10 #5FD7A7
+color11 #F3E430
+color12 #20BBFC
+color13 #D75F5F
+color14 #4FB8CC
+color15 #A8A8A8
+
+# Extended colors
+color16 #D75F5F
+color17 #A89C14
