@@ -21,6 +21,7 @@ vim.opt.foldenable = false
 vim.g.mapleader = " "
 vim.opt.cmdheight= 1
 vim.g.mkdp_browser = 'firefox'
+vim.opt.undofile = true
 
 vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })
 vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window' })

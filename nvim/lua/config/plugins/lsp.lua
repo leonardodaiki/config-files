@@ -20,6 +20,7 @@ return {
             lsp.zls.setup {}
             lsp.pylsp.setup {}
             lsp.rust_analyzer.setup {}
+            lsp.gdtoolkit.setup {}
 
 		end,
 	},

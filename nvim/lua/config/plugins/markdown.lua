@@ -21,7 +21,9 @@ return {
           build = "cd app && yarn install",
           init = function()
             vim.g.mkdp_filetypes = { "markdown" }
-            vim.g.mkdp_markdown_css = { "~/.config/nvim/lua/config/plugins/markdown.css" }
+            vim.g.mkdp_auto_close = 0
+            vim.g.mkdp_markdown_css = "/home/daiki/.config/nvim/lua/config/plugins/markdown.css"
+            vim.g.mkdp_hightlight_css = "/home/daiki/.config/nvim/lua/config/plugins/markdown.css"
           end,
           ft = { "markdown" },
     },
