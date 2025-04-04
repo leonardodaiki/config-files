@@ -22,6 +22,7 @@
   "vim-dadbod": { "branch": "master", "commit": "9f0ca8bcef704659820a95c3bbd2c262583a66a1" },
   "vim-dadbod-completion": { "branch": "master", "commit": "c7f1be21a08b8fc9d927a19db89a4aa995402787" },
   "vim-dadbod-ui": { "branch": "master", "commit": "f4d37b7312ae6489e5c04bee654ca521baac188a" },
+  "vim-sunbather": { "branch": "master", "commit": "64506a07a735ad92752e0e9935c4fc304f0327a4" },
   "yazi.nvim": { "branch": "main", "commit": "98db02660a0f853f0bbf051c14f613aff44e5fd8" },
   "zenbones.nvim": { "branch": "main", "commit": "bc74669c7f1b35984efdfa0d531dd802b968cf2e" }
 }

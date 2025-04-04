@@ -20,6 +20,7 @@ return {
             lsp.zls.setup {}
             lsp.pylsp.setup {}
             lsp.rust_analyzer.setup {}
+            lsp.csharp_ls.setup {}
 
 		end,
 	},
@@ -28,5 +29,5 @@ return {
 		config = function()
 			require('mason').setup()
 		end
-	}
+	},
 }
